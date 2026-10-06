@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RetroCam Sync — Support &amp; Privacy Policy</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --panel: #171a21;
+    --text: #e6e8ec;
+    --muted: #9aa3af;
+    --accent: #4f9dff;
+    --border: #262a33;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  header {
+    padding: 48px 24px 32px;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+  }
+  header h1 {
+    margin: 0 0 8px;
+    font-size: 1.9rem;
+  }
+  header p {
+    margin: 0;
+    color: var(--muted);
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 16px;
+    border-bottom: 1px solid var(--border);
+    background: var(--panel);
+    position: sticky;
+    top: 0;
+  }
+  nav a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+  nav a:hover { text-decoration: underline; }
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+  section {
+    margin-bottom: 56px;
+  }
+  section h2 {
+    font-size: 1.4rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  section h3 {
+    font-size: 1.05rem;
+    color: var(--text);
+    margin: 28px 0 8px;
+  }
+  p, li { color: var(--text); }
+  .muted { color: var(--muted); }
+  a { color: var(--accent); }
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+  }
+  .email-box {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 20px;
+    margin-top: 8px;
+  }
+  .email-box a {
+    font-weight: 600;
+    font-size: 1.05rem;
+  }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 8px; }
+  footer {
+    text-align: center;
+    padding: 24px;
+    color: var(--muted);
+    font-size: 0.85rem;
+    border-top: 1px solid var(--border);
+  }
+  .effective-date {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-top: -8px;
+    margin-bottom: 24px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>RetroCam Sync</h1>
+  <p>Support &amp; Privacy Policy</p>
+</header>
+
+<nav>
+  <a href="#support">Support</a>
+  <a href="#privacy">Privacy Policy</a>
+</nav>
+
+<main>
+
+  <section id="support">
+    <h2>Support</h2>
+    <div class="card">
+      <p>Need help with RetroCam Sync, found a bug, or have feedback on a feature? Reach out directly — we read every message.</p>
+      <div class="email-box">
+        ✉️ <a href="mailto:gurukathir5@gmail.com">gurukathir5@gmail.com</a>
+      </div>
+      <h3>When contacting support, it helps to include:</h3>
+      <ul>
+        <li>The device model and iOS version you're using</li>
+        <li>What camera or camcorder the source clip came from (if relevant)</li>
+        <li>A short description of what you expected vs. what happened</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="privacy">
+    <h2>Privacy Policy</h2>
+    <p class="effective-date">Effective date: October 6, 2026</p>
+
+    <p>RetroCam Sync ("the app", "we", "our") converts legacy camcorder video files (such as AVCHD/.MTS clips) into standard MP4 so they can be viewed, shared, and preserved. This policy explains what information the app accesses, how it is used, and who it is shared with.</p>
+
+    <h3>The short version</h3>
+    <p>Your video and photo files are processed entirely on your device. We do not upload, view, or store your media on any server. The app has no user accounts, no login, and does not sell or share your personal data with advertisers.</p>
+
+    <h3>Information We Access</h3>
+    <ul>
+      <li><strong>Photos Library.</strong> With your permission, the app reads the camcorder clips you select for conversion and saves the converted MP4 files back to your Photos library. This happens on-device; your media is never transmitted off your phone.</li>
+      <li><strong>File metadata.</strong> The app reads timestamps from source clips (e.g. the original recording date) so it can display "recorded on" information and apply the same date to the converted file. This metadata is used only for in-app display and file tagging.</li>
+      <li><strong>App preferences.</strong> Settings such as onboarding status and review-prompt counters are stored locally on your device using standard iOS app storage. This data never leaves your device.</li>
+    </ul>
+
+    <h3>Crash &amp; Diagnostic Reporting</h3>
+    <p>The app uses <a href="https://sentry.io" target="_blank" rel="noopener">Sentry</a> to automatically report crashes and performance issues so we can fix bugs. This diagnostic data:</p>
+    <ul>
+      <li>Is <strong>not linked</strong> to your identity — no account ID, device ID, name, or email is attached.</li>
+      <li>Is <strong>not used for tracking</strong> you across apps or websites.</li>
+      <li>Never includes your video or photo file names or file paths — these are automatically redacted before anything is sent.</li>
+      <li>Is limited to things like: crash logs, app version, OS version, and performance timings.</li>
+    </ul>
+    <p>If you have no network connection, diagnostic events are simply dropped — the app works fully offline either way.</p>
+
+    <h3>In-App Purchases</h3>
+    <p>RetroCam Sync offers an optional one-time unlock via Apple's StoreKit. All payment processing is handled entirely by Apple; we never see or store your payment details, billing address, or card information.</p>
+
+    <h3>What We Don't Do</h3>
+    <ul>
+      <li>We don't require account creation or login.</li>
+      <li>We don't show third-party ads.</li>
+      <li>We don't use advertising trackers or sell data to data brokers.</li>
+      <li>We don't upload your videos or photos to any server, ours or anyone else's.</li>
+    </ul>
+
+    <h3>Children's Privacy</h3>
+    <p>RetroCam Sync is not directed at children and does not knowingly collect personal information from children under 13.</p>
+
+    <h3>Data Retention</h3>
+    <p>Because the app does not operate a server or store your media remotely, there is nothing for us to retain on your behalf. Converted videos live in your device's Photos library under your control, and you can delete them at any time using the Photos app.</p>
+
+    <h3>Changes to This Policy</h3>
+    <p>If this policy changes, the updated version will be posted at this same page with a revised effective date.</p>
+
+    <h3>Contact Us</h3>
+    <p>Questions about this privacy policy can be sent to:</p>
+    <div class="email-box">
+      ✉️ <a href="mailto:gurukathir5@gmail.com">gurukathir5@gmail.com</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  &copy; 2026 RetroCam Sync. All rights reserved.
+</footer>
+
+</body>
+</html>
